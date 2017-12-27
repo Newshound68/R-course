@@ -13,6 +13,7 @@ protocols.
 * Has become a standard in plant sciences.
 * Good for communicating methods with research partners.
 * Increasingly scientific journals encourage/demand the publication of R code. 
+* Many textbooks use R code.
 
 ## How to Get R?
 * Select the “Cran Mirror” for the country of current
