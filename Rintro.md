@@ -10,6 +10,9 @@ Mac OS, Linux.
 * Compatible with Fortran, C und LAT<sub>E</sub>X.
 * Better possibilities for archiving analysis and modelling
 protocols.
+* Has become a standard in plant sciences.
+* Good for communicating methods with research partners.
+* Increasingly scientific journals encourage/demand the publication of R code. 
 
 ## How to Get R?
 * Select the “Cran Mirror” for the country of current
