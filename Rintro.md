@@ -1,9 +1,9 @@
 # Introduction
 ## What Exactly is R?
 * A free programming language and software environment for statistical computing including data analysis and modelling. 
+* The R source code is written primarily in C, Fortran, and R.
 * Easy to learn and powerful (extensibility).
 * Professional graphics, ideal for scientific publications.
-* Freely available (GNU General Public License).
 * Compatible with all popular operating systems: Windows,
 Mac OS, Linux.
 * Is always up to date and is continuously being developed.
@@ -24,6 +24,6 @@ residence (e.g. http://ftp.acc.umu.se/mirror/CRAN/).
 program.
 
 ## Editors, Integrated Programming Environments
-* Theoretically R code can be written in any editor and then committed via shell commands.
+* Theoretically R code can be written in any editor and then committed via a commnd line interface.
 * R has a very basic graphical user interface, i.e. the R GUI, which starts automatically when you click on the R icon.
 * For comfortable use, we recommend RStudio.
