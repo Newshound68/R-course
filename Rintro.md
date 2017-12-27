@@ -7,6 +7,6 @@
 * Compatible with all popular operating systems: Windows,
 Mac OS, Linux.
 * Is always up to date and is continuously being developed.
-* Compatible with Fortran, C und LATEX.
+* Compatible with Fortran, C und LAT<sub>E</sub>X.
 * Better possibilities for archiving analysis and modelling
 protocols.
