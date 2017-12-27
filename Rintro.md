@@ -15,6 +15,13 @@ protocols.
 * Increasingly scientific journals encourage/demand the publication of R code. 
 * Many textbooks use R code.
 
+## History
+* R is an implementation of the S programming language created by John Chambers in 1976.
+* R was created by Ross Ihaka and Robert Gentleman at the University of Auckland, New Zealand.
+* R is named partly after the first names of the first two R authors and partly as a play on the name of S. 
+* The project was conceived in 1992, with an initial version released in 1995 and a stable beta version in 2000.
+
+
 ## How to Get R?
 * Select the “Cran Mirror” for the country of current
 residence (e.g. http://ftp.acc.umu.se/mirror/CRAN/).
