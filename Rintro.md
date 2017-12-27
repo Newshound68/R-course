@@ -10,3 +10,11 @@ Mac OS, Linux.
 * Compatible with Fortran, C und LAT<sub>E</sub>X.
 * Better possibilities for archiving analysis and modelling
 protocols.
+
+## How to Get R?
+* Select the “Cran Mirror” for the country of current
+residence (e.g. http://ftp.acc.umu.se/mirror/CRAN/).
+* Click on the download link for your operating system.
+* Click on the subfolder “base”.
+* Click on the download link and launch the installation
+program.
