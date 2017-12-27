@@ -22,3 +22,8 @@ residence (e.g. http://ftp.acc.umu.se/mirror/CRAN/).
 * Click on the subfolder “base”.
 * Click on the download link and launch the installation
 program.
+
+## Editors, Integrated Programming Environments
+* Theoretically R code can be written in any editor and then committed via shell commands.
+* R has a very basic graphical user interface, i.e. the R GUI, which starts automatically when you click on the R icon.
+* For comfortable use, we recommend RStudio.
