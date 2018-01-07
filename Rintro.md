@@ -35,3 +35,6 @@ program.
 * Theoretically R code can be written in any editor and then committed via a commnd line interface.
 * R has a very basic graphical user interface, i.e. the R GUI, which starts automatically when you click on the R icon.
 * For comfortable use, we recommend RStudio.
+
+## Additional Resources
+* [icebreakeR](https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf) by Andrew Robinson
