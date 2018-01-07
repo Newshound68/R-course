@@ -37,4 +37,4 @@ program.
 * For comfortable use, we recommend RStudio.
 
 ## Additional Resources
-* [icebreakeR](https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf) by Andrew Robinson
+* [icebreakeR](https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf) by Andrew Robinson.
