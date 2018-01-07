@@ -15,6 +15,7 @@ protocols.
 * Good for communicating methods with research partners.
 * Increasingly scientific journals encourage/demand the publication of R code. 
 * Many textbooks use R code for illustration and dissemination, e.g. [useR! series in Springer](http://www.springer.com/series/6991).
+* R code is also handy for teaching quantiative subjects.
 
 ## History
 * R is an implementation of the S programming language created by John Chambers in 1976.
