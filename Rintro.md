@@ -1,6 +1,7 @@
 # Introduction
 ## What Exactly is R?
 * A free programming language and software environment for statistical computing including data analysis and modelling. 
+* Follows and supports the open-source ideal, R is released under the GNU license.
 * The R source code is written primarily in C, Fortran, and R.
 * Easy to learn and powerful (extensibility).
 * Professional graphics, ideal for scientific publications.
