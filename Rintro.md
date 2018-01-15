@@ -49,6 +49,6 @@ program.
 
 ## (Prominent) Alternatives to R
 In scientific computing, things keep changing all the time and to some agree at least we need to keep up with changes and trends. Here are a the most important alternatives to R:
-* Python
-* MatLab
-* Julia
+* [Python](https://www.python.org/)
+* [MatLab](https://de.mathworks.com/)
+* [Julia](https://julialang.org/)
