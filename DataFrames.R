@@ -1,4 +1,4 @@
-# This is our initial R script. 18.05.2015. Updated on 30.03.2017.
+# This is our initial R script. 18.05.2015. Updated on 03.01.2018.
 rm(list = ls())			              
 
 options(digits = 14, width = 100)
@@ -9,9 +9,14 @@ myData <- data.frame(dbh, h)
 str(myData)
 myData$h[2]
 
+mean(myData$dbh)
+with(myData, mean(dbh)) # New
+
 (myData.s <- myData[order(myData$dbh, decreasing = TRUE), ])
 
 myData.s[1 : 5, ]
+head(myData.s) # new
+tail(myData.s) # new
 
 myData.s[2]
 

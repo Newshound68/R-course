@@ -57,6 +57,13 @@ mean(dbh)
 
 mean(c(4, 6, 8, 9))
 
+t1 <- c(4, 6, 8, 9)#, "NA") 
+mean(t1)
+t1[5] <- "NA"
+t1 <- as.numeric(t1)
+mean(t1)
+mean(t1, na.rm = TRUE)
+
 median(dbh)
 
 sd(dbh)
@@ -101,3 +108,9 @@ sample(10)
 sample(x, size = 4)
 
 sample(x, size = 20, replace = T)
+
+# New
+install.packages("moments", dep  = TRUE)
+library(moments)
+dbh <- c(27.8, 5.6, 5.6, 10.3, 14.5)
+skewness(dbh)

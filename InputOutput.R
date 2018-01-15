@@ -24,3 +24,8 @@ by(myData$species, myData$species, length)
 range(myData$dbh)
 
 hist(myData$dbh)
+
+# New
+xfile <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
+source(paste(xfile, "ExternalExample.R", sep = ""), echo = TRUE) # Processing external code
+
