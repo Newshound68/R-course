@@ -4,6 +4,7 @@
 * Follows and supports the open-source ideal, R is released under the GNU license.
 * The R source code is written primarily in C, Fortran, and R.
 * Easy to learn and powerful (extensibility).
+* Your own code, somebody else's code + existing powerful statistical and graphical routines can be combined to result in something even more powerful.
 * Professional graphics, ideal for scientific publications.
 * Compatible with all popular operating systems: Windows,
 Mac OS, Linux.
