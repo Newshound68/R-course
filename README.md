@@ -1,7 +1,7 @@
 # R-course
 This repository includes material supporting a short, two-days course in the statistical software R.
 
-This course is for people who have often heard about R but until now have been busy tro produce excuses why they haven't been able to look into this software yet. Our course is designed to overcome this initial, hindrance, to motivate them and to put them into a situation so that they can proceed alone at the end of the two days.
+This course is for people who have often heard about R but until now have been busy to produce excuses why they haven't been able to look into this software yet. Our course is designed to overcome this initial, hindrance, to motivate them and to put them into a situation so that they can proceed alone at the end of the two days.
 
 It is possible to work through this course remotely alone or with others or to attend a face-to-face course at SLU at Umeå. For those who have difficulties to motivate themselves when it comes to computing or who easily get stuck in technical problems we recommend the face-to-face course.
 
