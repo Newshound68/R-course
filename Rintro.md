@@ -39,6 +39,8 @@ program.
 
 ## Additional Resources
 * [icebreakeR](https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf) by Andrew Robinson.
+* [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) by Emmanuel Paradis.
 * [Statistics Using R with Biological Examples](https://cran.r-project.org/doc/contrib/Seefeld_StatsRBio.pdf) by Kim Seefeld and Ernst Linder.
 * [Using R for Introductory Statistics](http://www.math.csi.cuny.edu/Statistics/R/simpleR/printable/simpleR.pdf) by John Verzani.
 * [Quick-R](https://www.statmethods.net/index.html) website.
+* Helpful free online forums where questions can be posted include [stackoverflow](https://stackoverflow.com/questions) [R-bloggers](https://www.r-bloggers.com/) and [DataCamp](https://www.datacamp.com/) among others. 
