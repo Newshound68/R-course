@@ -45,3 +45,9 @@ program.
 * [Using R for Introductory Statistics](http://www.math.csi.cuny.edu/Statistics/R/simpleR/printable/simpleR.pdf) by John Verzani.
 * [Quick-R](https://www.statmethods.net/index.html) website.
 * Helpful free online forums where questions can be posted include [stackoverflow](https://stackoverflow.com/questions), [R-bloggers](https://www.r-bloggers.com/) and [DataCamp](https://www.datacamp.com/) among others. 
+
+## (Prominent) Alternatives to R
+In scientific computing, things keep changing all the time and to some agree at least we need to keep up with changes and trends. Here are a the most important alternatives to R:
+* Python
+* MatLab
+* Julia
