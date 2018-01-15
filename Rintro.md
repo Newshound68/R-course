@@ -16,6 +16,7 @@ protocols.
 * Increasingly scientific journals encourage/demand the publication of R code. 
 * Many textbooks use R code for illustration and dissemination, e.g. [useR! series in Springer](http://www.springer.com/series/6991).
 * R code is also handy for teaching quantiative subjects.
+* Increasingly you can combine R with other software, e.g. with the IBM modelling software [NetLogo](https://ccl.northwestern.edu/netlogo/).
 
 ## History
 * R is an implementation of the S programming language created by John Chambers in 1976.
@@ -43,4 +44,4 @@ program.
 * [Statistics Using R with Biological Examples](https://cran.r-project.org/doc/contrib/Seefeld_StatsRBio.pdf) by Kim Seefeld and Ernst Linder.
 * [Using R for Introductory Statistics](http://www.math.csi.cuny.edu/Statistics/R/simpleR/printable/simpleR.pdf) by John Verzani.
 * [Quick-R](https://www.statmethods.net/index.html) website.
-* Helpful free online forums where questions can be posted include [stackoverflow](https://stackoverflow.com/questions) [R-bloggers](https://www.r-bloggers.com/) and [DataCamp](https://www.datacamp.com/) among others. 
+* Helpful free online forums where questions can be posted include [stackoverflow](https://stackoverflow.com/questions), [R-bloggers](https://www.r-bloggers.com/) and [DataCamp](https://www.datacamp.com/) among others. 
