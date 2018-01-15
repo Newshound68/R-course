@@ -40,3 +40,4 @@ program.
 ## Additional Resources
 * [icebreakeR](https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf) by Andrew Robinson.
 * [Statistics Using R with Biological Examples](https://cran.r-project.org/doc/contrib/Seefeld_StatsRBio.pdf) by Kim Seefeld and Ernst Linder.
+* [Quick-R](https://www.statmethods.net/index.html) website.
