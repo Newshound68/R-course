@@ -24,6 +24,10 @@ Dbh
 
 (dbh <- c(5.6, 10.3, 14.5, 27.8, 48.5))
 
+is.vector(dbh) # New: Check whether dbh is a vector
+
+typeof(dbh) # New: Check the variable type
+
 length(dbh)
 
 mode(dbh)
@@ -57,12 +61,16 @@ mean(dbh)
 
 mean(c(4, 6, 8, 9))
 
-t1 <- c(4, 6, 8, 9)#, "NA") 
+t1 <- c(4, 6, 8, 9)#, "NA") # New
 mean(t1)
 t1[5] <- "NA"
 t1 <- as.numeric(t1)
 mean(t1)
 mean(t1, na.rm = TRUE)
+
+typeof(t1)
+t1 <- c(4L, 6L, 8L, 9L) # New: Say specifically that these values are integers
+typeof(t1)
 
 median(dbh)
 
@@ -77,6 +85,8 @@ dbh <- c(27.8, 5.6, 5.6, 10.3, 14.5)
 rank(dbh)
 rank(dbh, ties.method = "min")
 ?rank
+
+ls() # New: What object names have you already used?
 
 myNames <- "Peter"
 myNames <- c(myNames, "John", "Lucy")		
@@ -108,6 +118,38 @@ sample(10)
 sample(x, size = 4)
 
 sample(x, size = 20, replace = T)
+
+args(sample) # New: Look up function arguments
+
+factorial(3) # New 1 * 2 * 3
+
+m <- 6 # New
+n <- 10 
+p <- 0.5 
+xmatrix <- matrix(0, nrow = n, ncol = m)  
+for(i in 1 : n)
+  for(j in 1 : m) {
+    u <- runif(1, 0, 1)
+    if(u < p) 
+      xmatrix[i, j] <- 1
+  }
+
+nowtime <- Sys.time() # New
+nowtime
+
+# New: Logic and binary data
+a <- 3
+b <- 4
+a == b
+
+a <- 3
+b <- 3
+a == b
+
+lVector <- c(TRUE, TRUE, FALSE, FALSE)
+lVector
+# Coercion
+sum(lVector)
 
 # New
 install.packages("moments", dep  = TRUE)

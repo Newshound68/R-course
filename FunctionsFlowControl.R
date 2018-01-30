@@ -12,7 +12,9 @@ calcQuadraticMean <- function(myVector) {
   return(x)
 }
 
-calcQuadraticMean(myData$dbh)
+calcQuadraticMean # New: Just print the function
+
+calcQuadraticMean(myData$dbh) # Use the function for calculation
 
 tapply(myData$dbh, myData$species, sum)
 # aggregate(myData, myData$species, calcQuadraticMean)
