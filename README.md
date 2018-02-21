@@ -10,7 +10,7 @@ R is a programming language and software environment for carrying out computatio
 How to work with the files in this repository?
 Start reading the markdown file Rintro.md for a general introduction. We recommend using the front end RStudio. First you have to install R and then you can download RStudio from [here](https://www.rstudio.com/products/rstudio/download/).
 
-Next download the the R files Basics.R, DataFrames.R, InputOutput.R, GraphsRegression.R, FunctionsFlowControl.R, ExtendingRwithC.R and open them as R scripts in RStudio. Work through these scripts line by line in the order indicated in the previous sentence. The pdf file RguideAp2017.pdf will guide you in this process. 
+Next download the the R files Basics.R, DataFrames.R, InputOutput.R, GraphsRegression.R, FunctionsFlowControl.R, ExtendingRwithC.R and open them as R scripts in RStudio. Work through these scripts line by line in the order indicated in the previous sentence. The pdf file RguideAp2017.pdf will guide you in this process. All necessary data you find in the data subfolder.
 
 Enjoy and have fun!
 
