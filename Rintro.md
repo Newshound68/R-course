@@ -47,6 +47,9 @@ program.
 * [Quick-R](https://www.statmethods.net/index.html) website.
 * Helpful free online forums where questions can be posted include [stackoverflow](https://stackoverflow.com/questions), [R-bloggers](https://www.r-bloggers.com/) and [DataCamp](https://www.datacamp.com/) among others. 
 
+## Best practice
+* [BES guide to reproducible code](https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf)
+
 ## (Prominent) Alternatives to R
 In scientific computing, things keep changing all the time and to some agree at least we need to keep up with changes and trends. Here are a the most important alternatives to R:
 * [Python](https://www.python.org/)
