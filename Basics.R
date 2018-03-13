@@ -1,4 +1,4 @@
-# This is our initial R script. 18.05.2015. Updated on 30.03.2017.
+# This is our initial R script. 18.05.2015. Updated on 11.03.2018.
 rm(list = ls())			              
 
 options(digits = 14, width = 100)
@@ -22,7 +22,7 @@ Dbh
 
 (dbh <- 5.6)
 
-(dbh <- c(5.6, 10.3, 14.5, 27.8, 48.5))
+(dbh <- c(5.6, 10.3, 14.5, 27.8, 48.5)) 
 
 is.vector(dbh) # New: Check whether dbh is a vector
 
@@ -31,16 +31,22 @@ typeof(dbh) # New: Check the variable type
 length(dbh)
 
 mode(dbh)
+mode(12.5)
 
 dbh[2]
 
+# j <- 2
 dbh[-2]
 
 dbh[dbh > 15]
 
+# k <- subset(dbh, dbh > 15)
 subset(dbh, dbh > 15)
-
+# ?subset
 length(dbh[dbh > 15])
+# a <- dbh[dbh > 15]
+# length(a)
+
 
 dbh[c(2, 4, 5)]
 
@@ -63,7 +69,7 @@ mean(c(4, 6, 8, 9))
 
 t1 <- c(4, 6, 8, 9)#, "NA") # New
 mean(t1)
-t1[5] <- "NA"
+t1[5] <- "NA" # means "not available"
 t1 <- as.numeric(t1)
 mean(t1)
 mean(t1, na.rm = TRUE)
@@ -89,6 +95,7 @@ rank(dbh, ties.method = "min")
 ls() # New: What object names have you already used?
 
 myNames <- "Peter"
+# myNames <- c("John", "Lucy")		
 myNames <- c(myNames, "John", "Lucy")		
 
 myNames <- c("John", "Lucy")		
@@ -99,8 +106,11 @@ myNames <- c("Peter", "John", "Lucy")
 myNames <- myNames[1 : 2]
 
 seq(from = 1, to = 17, by = 1)
+treeno <- seq(from = 1, to = length(dbh), by = 1)
 ?seq
 help(seq)
+RSiteSearch("histogram") # New
+
 ad <- seq(1, 17, by = 2)
 rev(ad)
 ad[length(ad) : 1]
@@ -108,6 +118,7 @@ ad[length(ad) : 1]
 c(1, 7 : 9)
 
 rep(7, 7)
+rep(1 : 7, 7)
 ?rep
 x <- 1 : 10
 
@@ -133,6 +144,7 @@ for(i in 1 : n)
     if(u < p) 
       xmatrix[i, j] <- 1
   }
+#?rnorm
 
 nowtime <- Sys.time() # New
 nowtime
@@ -141,6 +153,7 @@ nowtime
 a <- 3
 b <- 4
 a == b
+a != b
 
 a <- 3
 b <- 3
@@ -156,3 +169,4 @@ install.packages("moments", dep  = TRUE)
 library(moments)
 dbh <- c(27.8, 5.6, 5.6, 10.3, 14.5)
 skewness(dbh)
+?skewness

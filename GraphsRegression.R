@@ -1,7 +1,12 @@
 # This is our initial R script. 18.05.2015. Updated on 30.03.2017.
 rm(list = ls())			              
-
 options(digits = 14, width = 100)
+
+xfilePath <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
+# setwd("/Users/arng0001/Dropbox/Gwaith/Rcourse")
+
+myData <- read.table(paste(xfilePath, "Data1.txt", sep = ""), header = TRUE)
+View(myData) # Gives a data table
 
 # png(file = paste(xfilePath, "histExample.png", sep = ""))
 hist1 <- hist(myData$dbh, breaks = seq(6, 64, by = 4), include.lowest = T, right = F, plot = FALSE)
@@ -103,7 +108,8 @@ box(lwd = 2)
 
 rm(list = ls())	
 # xfilePath <- "Z:/Dysgu/ResearchSchool/Modules/AnalysisOfVariance/InitialR/"
-xfilePath <- "/Users/arng0001/Dropbox/AnalysisOfVariance/InitialR/"
+# xfilePath <- "/Users/arng0001/Dropbox/AnalysisOfVariance/InitialR/"
+xfilePath <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
 myData <- read.table(paste(xfilePath, "Data1.txt", sep = ""), header = TRUE)
 # pdf(file = paste(xfilePath, "BoxPlotExample.pdf", sep = ""))
 my.labels <- c("LP", "SS")

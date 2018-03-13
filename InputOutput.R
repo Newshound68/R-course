@@ -1,10 +1,20 @@
 rm(list = ls())	
-# xfilePath <- "Z:/Dysgu/ResearchSchool/Modules/AnalysisOfVariance/InitialR/"
-xfilePath <- "/Users/arng0001/Dropbox/AnalysisOfVariance/InitialR/"
+
+xfilePath <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
 myData <- read.table(paste(xfilePath, "Data1.txt", sep = ""), header = TRUE)
+# xfilePath <- file.choose()
+# myData <- read.table(paste(xfilePath, sep = ""), header = TRUE)
+# myData <- read.csv(paste(xfilePath, "Data1.csv", sep = ""), header = TRUE)
+# sourcePath <- ... original data
+# destPath <- ... folder for publication figures
+
 
 dim(myData)
 names(myData)
+str(myData)
+summary(myData)
+head(myData)
+tail(myData)
 
 mean(myData$dbh, na.rm = T)
 myData <- myData[!is.na(myData$dbh), ]
@@ -16,24 +26,28 @@ myData.LP1 <- myData[myData$species == 3, ]
 length(myData.LP1$treeno)
 myData.LP2 <- subset(myData, species == 12)
 length(myData.LP2$treeno)
+# head(myData.LP2)
 
 tapply(myData$treeno, myData$species, length)
 table(myData$species)
 by(myData$species, myData$species, length)
 
 range(myData$dbh)
+tapply(myData$dbh, myData$species, range)
 
 hist(myData$dbh)
+tapply(myData$dbh, myData$species, hist)
 
 # New
-xfile <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
-source(paste(xfile, "ExternalExample.R", sep = ""), echo = TRUE) # Processing external code
+# xfile <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
+source(paste(xfilePath, "ExternalExample.R", sep = ""), echo = FALSE) # Processing external code
 
 # New: data merging
 rm(list = ls())
 
 # Plot 1, first time step (1988 - 1992)
-plot1.1988 <- read.csv("/Users/arng0001/Dropbox/Gwaith/Rcourse/plot1t_1988.csv",header=T)
+plot1.1988 <- read.csv(file.choose(), header = T) # plot1t_1988.csv
+# plot1.1988 <- read.csv("/Users/arng0001/Dropbox/Gwaith/Rcourse/plot1t_1988.csv", header = T)
 names(plot1.1988)
 plot1.1988 <- plot1.1988[order(plot1.1988$Treeno, decreasing = FALSE), ]
 plot1.1988$Plotno <- c(1)
@@ -41,17 +55,20 @@ plot1.1988$year <- c(1988)
 plot1.1988 <- plot1.1988[plot1.1988$Treeno > 0, ]
 plot1.1988 <- plot1.1988[plot1.1988$status != "dead" & plot1.1988$status != "cut", ]
 
-plot1.1992 <- read.csv("/Users/arng0001/Dropbox/Gwaith/Rcourse/plot1t_1992.csv",header=T)
+plot1.1992 <- read.csv("/Users/arng0001/Dropbox/Gwaith/Rcourse/plot1t_1992.csv",header = T)
 names(plot1.1992)
 plot1.1992 <- plot1.1992[order(plot1.1992$Treeno, decreasing = FALSE), ]
+# head(plot1.1992x)
+# rm(plot1.1992x)
 plot1.1992$Plotno <- c(1)
 plot1.1992$year <- c(1992)
 plot1.1992 <- plot1.1992[plot1.1992$Treeno > 0, ]
 plot1.1992 <- plot1.1992[plot1.1992$status != "dead" & plot1.1992$status != "cut", ]
 
 plot1.1992$dbh1992 <- plot1.1992$dbh
-plot1.1992s <- plot1.1992[c("Treeno","dbh1992")]
+plot1.1992s <- plot1.1992[c("Treeno", "dbh1992")]
 plot1.1988 <- merge(plot1.1988, plot1.1992s, all.x = TRUE, sort = TRUE)
+head(plot1.1988)
 plot1.1988$AGR <- (plot1.1988$dbh1992 - plot1.1988$dbh) / (1992 - 1988)
 plot1.1988$RGR <- (log(plot1.1988$dbh1992) - log(plot1.1988$dbh)) / (1992 - 1988)
 

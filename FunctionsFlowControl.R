@@ -4,8 +4,10 @@ rm(list = ls())
 options(digits = 14, width = 100)
 
 # xfilePath <- "Z:/Dysgu/ResearchSchool/Modules/AnalysisOfVariance/InitialR/"
-xfilePath <- "/Users/arng0001/Dropbox/AnalysisOfVariance/InitialR/"
+# xfilePath <- "/Users/arng0001/Dropbox/AnalysisOfVariance/InitialR/"
+xfilePath <- "/Users/arng0001/Dropbox/Gwaith/Rcourse/"
 myData <- read.table(paste(xfilePath, "Data1.txt", sep = ""), header = TRUE)
+
 # Functions
 calcQuadraticMean <- function(myVector) {						
   x <- sqrt(sum(myVector^2) / length(myVector))
@@ -17,6 +19,7 @@ calcQuadraticMean # New: Just print the function
 calcQuadraticMean(myData$dbh) # Use the function for calculation
 
 tapply(myData$dbh, myData$species, sum)
+tapply(myData$dbh, myData$species, calcQuadraticMean)
 # aggregate(myData, myData$species, calcQuadraticMean)
 # ?aggregate
 mean(myData$dbh)
