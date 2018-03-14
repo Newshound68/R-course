@@ -1,4 +1,4 @@
-# R-course
+# R Course
 This repository includes material supporting a short, two-days course in the statistical software R.
 
 This course is for people who have often heard about R but until now have been busy to produce excuses why they haven't been able to look into this software yet. Our course is designed to overcome this initial, hindrance, to motivate them and to put them into a situation so that they can proceed alone at the end of the two days.
