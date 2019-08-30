@@ -15,4 +15,4 @@ Next download the the R files Basics.R, DataFrames.R, InputOutput.R, GraphsRegre
 Enjoy and have fun!
 
 Questions?
-Direct them to jaime.uria.diez@slu.se or arne.pommerening@slu.se.
+Direct them to arne.pommerening@slu.se.
