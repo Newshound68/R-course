@@ -12,6 +12,8 @@ Start reading the markdown file Rintro.md for a general introduction. We recomme
 
 Next download the the R files Basics.R, DataFrames.R, InputOutput.R, GraphsRegression.R, FunctionsFlowControl.R, ExtendingRwithC.R and open them as R scripts in RStudio. Work through these scripts line by line in the order indicated in the previous sentence. The pdf file RguideAp2017.pdf will guide you in this process. All necessary data you find in the data subfolder. At the end you can have a go with the exercises on the sheet "Exercises R for Beginners".
 
+This R course is also part of my text book ["Individual-based methods in forest ecology and management", Appendix C](https://www.springer.com/gp/book/9783030245276). In this book, you also find more examples of R applications.
+
 Enjoy and have fun!
 
 Questions?
