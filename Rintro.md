@@ -40,6 +40,7 @@ program.
 * For comfortable use, we recommend RStudio.
 
 ## Additional Resources
+* ["Individual-based methods in forest ecology and management", Appendix C](https://www.springer.com/gp/book/9783030245276) by Arne Pommerening and Pavel Grabarnik.
 * [icebreakeR](https://cran.r-project.org/doc/contrib/Robinson-icebreaker.pdf) by Andrew Robinson.
 * [R for Beginners](https://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) by Emmanuel Paradis.
 * [Statistics Using R with Biological Examples](https://cran.r-project.org/doc/contrib/Seefeld_StatsRBio.pdf) by Kim Seefeld and Ernst Linder.
